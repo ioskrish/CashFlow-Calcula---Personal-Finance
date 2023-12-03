@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F21914E2B1B02BF0051F5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F21914D2B1B02BF0051F5AF /* AppDelegate.swift */; };
+		2F2191502B1B02BF0051F5AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F21914F2B1B02BF0051F5AF /* SceneDelegate.swift */; };
+		2F2191552B1B02BF0051F5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2191532B1B02BF0051F5AF /* Main.storyboard */; };
+		2F2191582B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191562B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodeld */; };
+		2F21915A2B1B02C00051F5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2191592B1B02C00051F5AF /* Assets.xcassets */; };
+		2F21915D2B1B02C00051F5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F21915B2B1B02C00051F5AF /* LaunchScreen.storyboard */; };
+		2F2191682B1B02C00051F5AF /* CashFlow_CalculaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191672B1B02C00051F5AF /* CashFlow_CalculaTests.swift */; };
+		2F2191722B1B02C00051F5AF /* CashFlow_CalculaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191712B1B02C00051F5AF /* CashFlow_CalculaUITests.swift */; };
+		2F2191742B1B02C00051F5AF /* CashFlow_CalculaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191732B1B02C00051F5AF /* CashFlow_CalculaUITestsLaunchTests.swift */; };
+		2F2191872B1B19280051F5AF /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191862B1B19280051F5AF /* Date.swift */; };
+		2F2191892B1B19690051F5AF /* MoneyTransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191882B1B19690051F5AF /* MoneyTransactionTableViewCell.swift */; };
+		2F21918D2B1B1BF70051F5AF /* TransactionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F21918C2B1B1BF70051F5AF /* TransactionDetailVC.swift */; };
+		2F21918F2B1B1C3B0051F5AF /* NewPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F21918E2B1B1C3B0051F5AF /* NewPaymentVC.swift */; };
+		2F2191912B1B1C9E0051F5AF /* CashFlowSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191902B1B1C9E0051F5AF /* CashFlowSheetVC.swift */; };
+		2F2191932B1B34B20051F5AF /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2191922B1B34B20051F5AF /* Transaction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F2191642B1B02C00051F5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2191422B1B02BF0051F5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2191492B1B02BF0051F5AF;
+			remoteInfo = "CashFlow Calcula";
+		};
+		2F21916E2B1B02C00051F5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2191422B1B02BF0051F5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2191492B1B02BF0051F5AF;
+			remoteInfo = "CashFlow Calcula";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F21914A2B1B02BF0051F5AF /* CashFlow Calcula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CashFlow Calcula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F21914D2B1B02BF0051F5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F21914F2B1B02BF0051F5AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F2191542B1B02BF0051F5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F2191572B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CashFlow_Calcula.xcdatamodel; sourceTree = "<group>"; };
+		2F2191592B1B02C00051F5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F21915C2B1B02C00051F5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F21915E2B1B02C00051F5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2191632B1B02C00051F5AF /* CashFlow CalculaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CashFlow CalculaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2191672B1B02C00051F5AF /* CashFlow_CalculaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow_CalculaTests.swift; sourceTree = "<group>"; };
+		2F21916D2B1B02C00051F5AF /* CashFlow CalculaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CashFlow CalculaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2191712B1B02C00051F5AF /* CashFlow_CalculaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow_CalculaUITests.swift; sourceTree = "<group>"; };
+		2F2191732B1B02C00051F5AF /* CashFlow_CalculaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlow_CalculaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F2191862B1B19280051F5AF /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		2F2191882B1B19690051F5AF /* MoneyTransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTransactionTableViewCell.swift; sourceTree = "<group>"; };
+		2F21918C2B1B1BF70051F5AF /* TransactionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailVC.swift; sourceTree = "<group>"; };
+		2F21918E2B1B1C3B0051F5AF /* NewPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPaymentVC.swift; sourceTree = "<group>"; };
+		2F2191902B1B1C9E0051F5AF /* CashFlowSheetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowSheetVC.swift; sourceTree = "<group>"; };
+		2F2191922B1B34B20051F5AF /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F2191472B1B02BF0051F5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2191602B1B02C00051F5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F21916A2B1B02C00051F5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2191412B1B02BF0051F5AF = {
+			isa = PBXGroup;
+			children = (
+				2F21914C2B1B02BF0051F5AF /* CashFlow Calcula */,
+				2F2191662B1B02C00051F5AF /* CashFlow CalculaTests */,
+				2F2191702B1B02C00051F5AF /* CashFlow CalculaUITests */,
+				2F21914B2B1B02BF0051F5AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F21914B2B1B02BF0051F5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F21914A2B1B02BF0051F5AF /* CashFlow Calcula.app */,
+				2F2191632B1B02C00051F5AF /* CashFlow CalculaTests.xctest */,
+				2F21916D2B1B02C00051F5AF /* CashFlow CalculaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F21914C2B1B02BF0051F5AF /* CashFlow Calcula */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191802B1B18CD0051F5AF /* Storyboard */,
+				2F2191852B1B190B0051F5AF /* App */,
+				2F2191842B1B19010051F5AF /* Model */,
+				2F2191832B1B18FC0051F5AF /* View */,
+				2F2191822B1B18F40051F5AF /* Controller */,
+				2F2191812B1B18DC0051F5AF /* Helper */,
+				2F2191592B1B02C00051F5AF /* Assets.xcassets */,
+				2F21915E2B1B02C00051F5AF /* Info.plist */,
+			);
+			path = "CashFlow Calcula";
+			sourceTree = "<group>";
+		};
+		2F2191662B1B02C00051F5AF /* CashFlow CalculaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191672B1B02C00051F5AF /* CashFlow_CalculaTests.swift */,
+			);
+			path = "CashFlow CalculaTests";
+			sourceTree = "<group>";
+		};
+		2F2191702B1B02C00051F5AF /* CashFlow CalculaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191712B1B02C00051F5AF /* CashFlow_CalculaUITests.swift */,
+				2F2191732B1B02C00051F5AF /* CashFlow_CalculaUITestsLaunchTests.swift */,
+			);
+			path = "CashFlow CalculaUITests";
+			sourceTree = "<group>";
+		};
+		2F2191802B1B18CD0051F5AF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191532B1B02BF0051F5AF /* Main.storyboard */,
+				2F21915B2B1B02C00051F5AF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2F2191812B1B18DC0051F5AF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191862B1B19280051F5AF /* Date.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2F2191822B1B18F40051F5AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F21918C2B1B1BF70051F5AF /* TransactionDetailVC.swift */,
+				2F21918E2B1B1C3B0051F5AF /* NewPaymentVC.swift */,
+				2F2191902B1B1C9E0051F5AF /* CashFlowSheetVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F2191832B1B18FC0051F5AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191882B1B19690051F5AF /* MoneyTransactionTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F2191842B1B19010051F5AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F2191562B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodeld */,
+				2F2191922B1B34B20051F5AF /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F2191852B1B190B0051F5AF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2F21914D2B1B02BF0051F5AF /* AppDelegate.swift */,
+				2F21914F2B1B02BF0051F5AF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F2191492B1B02BF0051F5AF /* CashFlow Calcula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2191772B1B02C00051F5AF /* Build configuration list for PBXNativeTarget "CashFlow Calcula" */;
+			buildPhases = (
+				2F2191462B1B02BF0051F5AF /* Sources */,
+				2F2191472B1B02BF0051F5AF /* Frameworks */,
+				2F2191482B1B02BF0051F5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashFlow Calcula";
+			productName = "CashFlow Calcula";
+			productReference = 2F21914A2B1B02BF0051F5AF /* CashFlow Calcula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F2191622B1B02C00051F5AF /* CashFlow CalculaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F21917A2B1B02C00051F5AF /* Build configuration list for PBXNativeTarget "CashFlow CalculaTests" */;
+			buildPhases = (
+				2F21915F2B1B02C00051F5AF /* Sources */,
+				2F2191602B1B02C00051F5AF /* Frameworks */,
+				2F2191612B1B02C00051F5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2191652B1B02C00051F5AF /* PBXTargetDependency */,
+			);
+			name = "CashFlow CalculaTests";
+			productName = "CashFlow CalculaTests";
+			productReference = 2F2191632B1B02C00051F5AF /* CashFlow CalculaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F21916C2B1B02C00051F5AF /* CashFlow CalculaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F21917D2B1B02C00051F5AF /* Build configuration list for PBXNativeTarget "CashFlow CalculaUITests" */;
+			buildPhases = (
+				2F2191692B1B02C00051F5AF /* Sources */,
+				2F21916A2B1B02C00051F5AF /* Frameworks */,
+				2F21916B2B1B02C00051F5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F21916F2B1B02C00051F5AF /* PBXTargetDependency */,
+			);
+			name = "CashFlow CalculaUITests";
+			productName = "CashFlow CalculaUITests";
+			productReference = 2F21916D2B1B02C00051F5AF /* CashFlow CalculaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F2191422B1B02BF0051F5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F2191492B1B02BF0051F5AF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2F2191622B1B02C00051F5AF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F2191492B1B02BF0051F5AF;
+					};
+					2F21916C2B1B02C00051F5AF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F2191492B1B02BF0051F5AF;
+					};
+				};
+			};
+			buildConfigurationList = 2F2191452B1B02BF0051F5AF /* Build configuration list for PBXProject "CashFlow Calcula" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F2191412B1B02BF0051F5AF;
+			productRefGroup = 2F21914B2B1B02BF0051F5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F2191492B1B02BF0051F5AF /* CashFlow Calcula */,
+				2F2191622B1B02C00051F5AF /* CashFlow CalculaTests */,
+				2F21916C2B1B02C00051F5AF /* CashFlow CalculaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F2191482B1B02BF0051F5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F21915D2B1B02C00051F5AF /* LaunchScreen.storyboard in Resources */,
+				2F21915A2B1B02C00051F5AF /* Assets.xcassets in Resources */,
+				2F2191552B1B02BF0051F5AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2191612B1B02C00051F5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F21916B2B1B02C00051F5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F2191462B1B02BF0051F5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2191582B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodeld in Sources */,
+				2F2191892B1B19690051F5AF /* MoneyTransactionTableViewCell.swift in Sources */,
+				2F21918F2B1B1C3B0051F5AF /* NewPaymentVC.swift in Sources */,
+				2F2191912B1B1C9E0051F5AF /* CashFlowSheetVC.swift in Sources */,
+				2F2191872B1B19280051F5AF /* Date.swift in Sources */,
+				2F21914E2B1B02BF0051F5AF /* AppDelegate.swift in Sources */,
+				2F21918D2B1B1BF70051F5AF /* TransactionDetailVC.swift in Sources */,
+				2F2191502B1B02BF0051F5AF /* SceneDelegate.swift in Sources */,
+				2F2191932B1B34B20051F5AF /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F21915F2B1B02C00051F5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2191682B1B02C00051F5AF /* CashFlow_CalculaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2191692B1B02C00051F5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2191722B1B02C00051F5AF /* CashFlow_CalculaUITests.swift in Sources */,
+				2F2191742B1B02C00051F5AF /* CashFlow_CalculaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F2191652B1B02C00051F5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F2191492B1B02BF0051F5AF /* CashFlow Calcula */;
+			targetProxy = 2F2191642B1B02C00051F5AF /* PBXContainerItemProxy */;
+		};
+		2F21916F2B1B02C00051F5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F2191492B1B02BF0051F5AF /* CashFlow Calcula */;
+			targetProxy = 2F21916E2B1B02C00051F5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F2191532B1B02BF0051F5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F2191542B1B02BF0051F5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F21915B2B1B02C00051F5AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F21915C2B1B02C00051F5AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F2191752B1B02C00051F5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F2191762B1B02C00051F5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F2191782B1B02C00051F5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CashFlow Calcula/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CashFlow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krishna.CashFlow-Calcula";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F2191792B1B02C00051F5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CashFlow Calcula/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CashFlow;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krishna.CashFlow-Calcula";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F21917B2B1B02C00051F5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krishna.CashFlow-CalculaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashFlow Calcula.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashFlow Calcula";
+			};
+			name = Debug;
+		};
+		2F21917C2B1B02C00051F5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krishna.CashFlow-CalculaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashFlow Calcula.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashFlow Calcula";
+			};
+			name = Release;
+		};
+		2F21917E2B1B02C00051F5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krishna.CashFlow-CalculaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CashFlow Calcula";
+			};
+			name = Debug;
+		};
+		2F21917F2B1B02C00051F5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.krishna.CashFlow-CalculaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CashFlow Calcula";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F2191452B1B02BF0051F5AF /* Build configuration list for PBXProject "CashFlow Calcula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2191752B1B02C00051F5AF /* Debug */,
+				2F2191762B1B02C00051F5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2191772B1B02C00051F5AF /* Build configuration list for PBXNativeTarget "CashFlow Calcula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2191782B1B02C00051F5AF /* Debug */,
+				2F2191792B1B02C00051F5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F21917A2B1B02C00051F5AF /* Build configuration list for PBXNativeTarget "CashFlow CalculaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F21917B2B1B02C00051F5AF /* Debug */,
+				2F21917C2B1B02C00051F5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F21917D2B1B02C00051F5AF /* Build configuration list for PBXNativeTarget "CashFlow CalculaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F21917E2B1B02C00051F5AF /* Debug */,
+				2F21917F2B1B02C00051F5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F2191562B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F2191572B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodel */,
+			);
+			currentVersion = 2F2191572B1B02BF0051F5AF /* CashFlow_Calcula.xcdatamodel */;
+			path = CashFlow_Calcula.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F2191422B1B02BF0051F5AF /* Project object */;
+}
